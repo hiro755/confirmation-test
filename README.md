@@ -19,3 +19,6 @@ Laravel環境構築
 URL
 ・開発環境：http://localhost/register
 ・phpMyAdmin:http://localhost:8080/
+
+ER図
+<img width="1920" height="1080" alt="スクリーンショット 2025-08-03 100853" src="https://github.com/user-attachments/assets/16aa8622-07bd-4b71-85d7-7d47c5836569" />
