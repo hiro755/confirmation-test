@@ -1,6 +1,6 @@
 環境構築
 Dockerビルド
-1.git clone 
+1.git clone git@github.com:hiro755/confirmation-test.git
 2.docker-compose up -d -build
 
 Laravel環境構築
