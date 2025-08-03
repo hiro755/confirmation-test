@@ -12,7 +12,7 @@ Laravel環境構築
 6.php artisan db:seed
 
 使用技術
-・PHP 8.0
+・PHP 8.1-fpm
 ・Laravel 10.0
 ・MySQL 8.0
 
