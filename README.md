@@ -4,6 +4,7 @@ Dockerビルド
 2.docker-compose up -d -build
 
 Laravel環境構築
+0.cd　coachtech/confirmation-test
 1.docker-compsoe exec php bash
 2.composer install
 3. .env.exampleファイルから.envを作成し、環境変数を変更
