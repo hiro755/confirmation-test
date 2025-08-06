@@ -1,0 +1,105 @@
+body {
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+    background-color: #fdfaf7;
+    color: #5a4a42;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 2rem;
+}
+
+form.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form.search-form input[type="text"],
+form.search-form select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    min-width: 160px;
+}
+
+form.search-form button {
+    background-color: #8b7765;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form.search-form button:hover {
+    background-color: #7a6857;
+}
+
+button.reset {
+    background-color: #e6d8c8;
+    color: #5a4a42;
+}
+
+.export-btn {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 8px 16px;
+    background-color: #e6d8c8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table thead {
+    background-color: #b8a392;
+    color: #fff;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+table td button {
+    background-color: transparent;
+    border: 1px solid #d1c5bb;
+    color: #5a4a42;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.pagination .page-link {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    margin: 0 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #5a4a42;
+}
+
+.pagination .active .page-link {
+    background-color: #8b7765;
+    color: white;
+    border-color: #8b7765;
+}

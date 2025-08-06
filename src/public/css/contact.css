@@ -1,0 +1,168 @@
+body {
+    font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+    background-color: #fdfaf7;
+    color: #5a4a42;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+form {
+    width: 80%;
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #e3dcd5;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(180, 160, 140, 0.1);
+}
+
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    width: 180px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.form-group .required {
+    color: #cc0000;
+    font-size: 0.85rem;
+    margin-left: 6px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea,
+.form-group select {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #dcd2c8;
+    border-radius: 4px;
+    background-color: #f7f4f1;
+    font-size: 1rem;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+}
+
+.radio-group label {
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.phone-input {
+    display: flex;
+    gap: 8px;
+}
+
+.phone-input input {
+    flex: 1;
+}
+
+button {
+    display: block;
+    margin: 40px auto 0;
+    background-color: #8b7765;
+    color: #fff;
+    padding: 14px 40px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7a6857;
+}
+
+.error {
+    color: #cc0000;
+    font-size: 0.85rem;
+    margin-top: 6px;
+}
+
+.confirm-table {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(180, 160, 140, 0.1);
+}
+
+.confirm-table th,
+.confirm-table td {
+    padding: 16px;
+    border: 1px solid #e3dcd5;
+    vertical-align: top;
+}
+
+.confirm-table th {
+    width: 200px;
+    background-color: #c6b4a3;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.confirm-table td {
+    background-color: #fff;
+    color: #5a4a42;
+    word-break: break-word;
+}
+
+form button {
+    display: inline-block;
+    margin: 40px 10px 0;
+    background-color: #8b7765;
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #7a6857;
+}
+
+.thanks-container {
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 1.2rem;
+    color: #5a4a42;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: #8b7765;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.home-button:hover {
+    background-color: #7a6857;
+}
